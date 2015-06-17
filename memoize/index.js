@@ -1,5 +1,3 @@
-const NOVAL = Symbol('NOVAL');
-
 module.exports = function (fn) {
     const memo = new Map();
     return function () {
